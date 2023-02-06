@@ -1,0 +1,71 @@
+/* Write your CSS here */
+.list-cont {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.bg-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+}
+.card {
+  padding: 40px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: bold;
+  color: #171f46;
+}
+.box {
+  background-color: #ffffff;
+  width: 70%vw;
+  height: 30px;
+  padding: 10px;
+  margin: 10px;
+}
+.but1 {
+  background-color: #8b5cf6;
+  height: 30px;
+  border-width: 0px;
+  width: 100px;
+  padding: 5px;
+}
+.star-but {
+  border: 1px solid #8b5cf6;
+  color: #8b5cf6;
+  background-color: #ffffff;
+  padding: 10px;
+}
+.c {
+  display: flex;
+  margin: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.label-element {
+  color: #b5b7c4;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.min-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.img-big {
+  width: 40%vw;
+}
