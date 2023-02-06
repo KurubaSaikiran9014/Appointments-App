@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.list-item {
+  padding: 10px;
+  margin: 10px;
+  max-width: 400px;
+  border-radius: 10px;
+  border: 1px solid #b5b7c4;
+}
+
+.cont {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+.title {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  color: #171f46;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+}
+.date {
+  font-family: 'Roboto';
+  font-size: 18px;
+
+  color: #b5b7c4;
+}
+.but {
+  height: 40px;
+  background-color: #ffffff;
+  border-width: 0px;
+  width: 40px;
+}
